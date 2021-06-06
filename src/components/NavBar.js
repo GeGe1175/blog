@@ -19,7 +19,7 @@ function NavBar() {
             activeClassName='text-blue-100 bg-blue-700'
             className='inline-flex items-center py-3 px-3 my-6 rounded text-blue-200 hover:text-blue-800'
           >
-            Blog Posts
+            Posts
           </NavLink>
           <NavLink
             to='/project'

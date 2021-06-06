@@ -8,7 +8,7 @@ import NavBar from './components/NavBar';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter className='flex-fill'>
       <NavBar />
       <Switch>
         <Route component={Home} path='/' exact />
