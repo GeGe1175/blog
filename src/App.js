@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from './components/Home';
+import Home from './components/home/Home';
 import About from './components/About';
 import SinglePost from './components/SinglePost';
 import Post from './components/Post';
 import Project from './components/Project';
-import Topbar from './components/Topbar';
-import Menu from './components/Menu';
+import Topbar from './components/topbar/Topbar';
+import Menu from './components/menu/Menu';
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);

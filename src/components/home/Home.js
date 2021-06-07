@@ -1,5 +1,5 @@
 import React from 'react';
-import image from '../background.jpg';
+import image from '../../background.jpg';
 import './home.scss';
 import { init } from 'ityped';
 import { useEffect, useRef } from 'react';
