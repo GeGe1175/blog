@@ -1,8 +1,6 @@
 import './topbar.scss';
 import { Person, Mail } from '@material-ui/icons';
 import GitHubIcon from '@material-ui/icons/GitHub';
-import Button from '@material-ui/core/Button';
-import { Link } from 'react-router-dom';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
