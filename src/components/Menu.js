@@ -22,7 +22,7 @@ export default function Menu({ menuOpen, setMenuOpen }) {
         </li>
         <li>
           <Link to='/about' onClick={() => setMenuOpen(false)}>
-            <button>About Me!</button>
+            <button>About</button>
           </Link>
         </li>
       </ul>
