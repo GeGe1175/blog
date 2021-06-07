@@ -6,7 +6,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
     <div className={'topbar ' + (menuOpen && 'active')}>
       <div className='wrapper'>
         <div className='left'>
-          <a className='logo'>Jeffery</a>
+          <h1 className='logo'>Ge</h1>
           <div className='itemContainer'>
             <Person className='icon' />
             <span>+61406568829</span>
