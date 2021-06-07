@@ -1,5 +1,8 @@
 import './topbar.scss';
 import { Person, Mail } from '@material-ui/icons';
+import GitHubIcon from '@material-ui/icons/GitHub';
+import Button from '@material-ui/core/Button';
+import { Link } from 'react-router-dom';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -14,6 +17,15 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
           <div className='itemContainer'>
             <Mail className='icon' />
             <span>jeffery.ge1234@gmail.com</span>
+          </div>
+          <div className='itemContainer'>
+            <a
+              href='https://github.com/GeGe1175'
+              rel='noopener noreferrer'
+              target='_blank'
+            >
+              <GitHubIcon className='icon' />
+            </a>
           </div>
         </div>
         <div className='right'>
